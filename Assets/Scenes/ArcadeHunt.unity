@@ -124,7 +124,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -6754674874353905211, guid: e606719697be6184486fc82635e6dbf3, type: 3}
   m_PrefabInstance: {fileID: 537092788}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &75840224
+--- !u!64 &75840228
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -434,10 +434,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7742780737561719692, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8247994413960396516, guid: e606719697be6184486fc82635e6dbf3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0131c8f66effdc244935a6bd7acf4ffd, type: 2}
+    - target: {fileID: 8487167654232718067, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -489,7 +497,7 @@ PrefabInstance:
       addedObject: {fileID: 78964657}
     - targetCorrespondingSourceObject: {fileID: -6754674874353905211, guid: e606719697be6184486fc82635e6dbf3, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 75840224}
+      addedObject: {fileID: 75840228}
     - targetCorrespondingSourceObject: {fileID: -6537391115626099353, guid: e606719697be6184486fc82635e6dbf3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 423905546}
