@@ -11,8 +11,10 @@ public class TestInteractable : MonoBehaviour, IInteractable
     {
         //Debug.Log("Interacted with cube!"); - this was just to demonstrate the Press E function was working
         ticketManager.CollectTicket();
-        AudioSource.PlayClipAtPoint(collectSound, transform.position);
         // this collect ticket line has been added to update the Ticket Counter UI
+        AudioSource.PlayClipAtPoint(collectSound, transform.position);
+        // this line has been added to play sound effects when picking up a ticket
+        
         Destroy(gameObject);
     }
 
