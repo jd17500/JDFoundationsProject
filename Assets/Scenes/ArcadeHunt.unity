@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 568487820}
   - component: {fileID: 568487819}
   - component: {fileID: 568487818}
+  - component: {fileID: 568487822}
   m_Layer: 5
   m_Name: GameUI
   m_TagString: Untagged
@@ -702,6 +703,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &568487822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568487817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8723293aa5361374a865199e14665922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketManager
+  ticketCounterText: {fileID: 1930067587}
 --- !u!1 &680854669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6446655653730661190, guid: e606719697be6184486fc82635e6dbf3, type: 3}
@@ -938,7 +952,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28aff090ef327d142bfff6d9bf178ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestInteractable
-  InteractText: '[E] to Interact'
+  InteractText: '[E] to Collect'
+  ticketManager: {fileID: 568487822}
 --- !u!65 &1043395692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1773,7 +1788,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[E] to Interact'
+  m_text: '[E] to Collect
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4a2aba1eb131d6e40a1530611c4ac880, type: 2}
   m_sharedMaterial: {fileID: 2724691293376422010, guid: 4a2aba1eb131d6e40a1530611c4ac880, type: 2}
