@@ -1,6 +1,5 @@
 using UnityEngine;
 using TMPro;
-using JetBrains.Annotations;
 
 public class TicketManager : MonoBehaviour
 {
