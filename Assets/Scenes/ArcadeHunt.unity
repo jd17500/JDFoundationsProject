@@ -434,6 +434,42 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.056
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.749
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6968733
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6968733
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.11986509
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.11986506
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2568254929943005044, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -19.519
+      objectReference: {fileID: 0}
     - target: {fileID: 7742780737561719692, guid: e606719697be6184486fc82635e6dbf3, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -513,6 +549,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2550463727306718371, guid: e606719697be6184486fc82635e6dbf3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 269706568}
+    - targetCorrespondingSourceObject: {fileID: -6119849264111314925, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1043395688}
     - targetCorrespondingSourceObject: {fileID: 7793591296301008433, guid: e606719697be6184486fc82635e6dbf3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1757536561}
@@ -874,6 +913,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6326260132259569071, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+--- !u!1 &1043395684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6119849264111314925, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+  m_PrefabInstance: {fileID: 537092788}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1043395688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043395684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28aff090ef327d142bfff6d9bf178ac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TestInteractable
+  InteractText: '[E] to Interact'
 --- !u!1 &1088728689 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5710415196795190505, guid: e606719697be6184486fc82635e6dbf3, type: 3}
@@ -1074,6 +1131,7 @@ GameObject:
   - component: {fileID: 1396095932}
   - component: {fileID: 1396095931}
   - component: {fileID: 1396095933}
+  - component: {fileID: 1396095934}
   m_Layer: 0
   m_Name: First Person Player
   m_TagString: Untagged
@@ -1145,6 +1203,18 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &1396095934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396095930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290fbed54f0963842ace5c1372c12fb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
 --- !u!1 &1403971353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5466966032026416220, guid: e606719697be6184486fc82635e6dbf3, type: 3}
