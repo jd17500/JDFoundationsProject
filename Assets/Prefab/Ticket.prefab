@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3549333966088526225}
-  m_Mesh: {fileID: 2231124091193826694, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+  m_Mesh: {fileID: 2231124091193826694, guid: 694ba966f134fba4a9bc61d8155e69b9, type: 3}
 --- !u!23 &4376049911084945469
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -68,8 +68,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4785454949958090497, guid: e606719697be6184486fc82635e6dbf3, type: 3}
-  - {fileID: 6794456987870094828, guid: e606719697be6184486fc82635e6dbf3, type: 3}
+  - {fileID: 2100000, guid: 1d0a9ac9f663eb5449fb2d9c84e33b99, type: 2}
+  - {fileID: 2100000, guid: 6cf5c7ce474363d45adfee9e00451953, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,6 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TestInteractable
   InteractText: '[E] to Collect'
   ticketManager: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!65 &2252851793495478248
 BoxCollider:
   m_ObjectHideFlags: 0
