@@ -463,7 +463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3549333966088526225, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
       propertyPath: m_Name
-      value: Ticket (1)
+      value: Ticket3
       objectReference: {fileID: 0}
     - target: {fileID: 7904383117601979178, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
       propertyPath: collectSound
@@ -1172,7 +1172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3549333966088526225, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
       propertyPath: m_Name
-      value: Ticket
+      value: Ticket2
       objectReference: {fileID: 0}
     - target: {fileID: 7904383117601979178, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
       propertyPath: collectSound
@@ -2047,7 +2047,6 @@ Transform:
   - {fileID: 5138699259853658288}
   - {fileID: 2489159160001664780}
   - {fileID: 2398160046327259287}
-  - {fileID: 2568254929406092736}
   - {fileID: 4910951693919894357}
   - {fileID: 6302250191915419586}
   - {fileID: 8598858301760154408}
@@ -2613,11 +2612,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2568254929406092736 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1362498649096419240, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
-  m_PrefabInstance: {fileID: 5878265665537909635}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2685980920691601363
 GameObject:
   m_ObjectHideFlags: 0
@@ -3473,7 +3467,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 543450653163128159}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1362498649096419240, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3517,7 +3511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3549333966088526225, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
       propertyPath: m_Name
-      value: Ticket
+      value: Ticket1
       objectReference: {fileID: 0}
     - target: {fileID: 7904383117601979178, guid: 720b69e4efffd7e4494369a247f6630c, type: 3}
       propertyPath: collectSound
@@ -4339,6 +4333,7 @@ SceneRoots:
   - {fileID: 1396095932}
   - {fileID: 568487821}
   - {fileID: 2123196143}
+  - {fileID: 5878265665537909635}
   - {fileID: 1424601855}
-  - {fileID: 916132741}
   - {fileID: 823662659}
+  - {fileID: 916132741}
