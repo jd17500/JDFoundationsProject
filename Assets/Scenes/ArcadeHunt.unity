@@ -3264,7 +3264,7 @@ GameObject:
   - component: {fileID: 6185272227934388690}
   - component: {fileID: 5373954354097369591}
   - component: {fileID: 7304358090500724505}
-  - component: {fileID: 7304358090500724504}
+  - component: {fileID: 7304358090500724506}
   m_Layer: 0
   m_Name: Box002
   m_TagString: Untagged
@@ -3272,8 +3272,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &7304358090500724504
-BoxCollider:
+--- !u!114 &7304358090500724505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7304358090500724503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d804b5cefc5e1e458937d7a66918067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HatchInteractable
+  doorController: {fileID: 1536178913}
+  interactText: '[E] to Open'
+--- !u!64 &7304358090500724506
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3290,23 +3304,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.50000006, y: 0.030000182, z: 0.60000026}
-  m_Center: {x: -0.00000020408191, y: 0.00000052570374, z: 0.30000007}
---- !u!114 &7304358090500724505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7304358090500724503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d804b5cefc5e1e458937d7a66918067, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HatchInteractable
-  doorController: {fileID: 1536178913}
-  interactText: '[E] to Open'
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2232952877369940510, guid: f5de7205f0b6ed743950d7a3f2860a62, type: 3}
 --- !u!1 &7516577228858491808
 GameObject:
   m_ObjectHideFlags: 0
