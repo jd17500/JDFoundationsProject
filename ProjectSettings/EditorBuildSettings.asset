@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ArcadeHunt.unity
     guid: 077f3a44e3393d942b9a0ce1b991adee
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3cf41a540a5943741b90f3d45b353900
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
