@@ -7,23 +7,19 @@ public class TicketManager : MonoBehaviour
 
     private int ticketsCollected = 0;
 
+    public int TicketsCollected => ticketsCollected;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
         public void CollectTicket()
         
     {
+        if (ticketsCollected >= 10)
+            return;
+
         ticketsCollected++;
+    
     
         ticketCounterText.text = "Tickets " + ticketsCollected + "/10";
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
