@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class ChildTicketInteraction : MonoBehaviour, IInteractable
 {
     [SerializeField] private TicketManager ticketManager;
+    [SerializeField] private SceneFader sceneFader;
 
     public string InteractionText
     {
@@ -25,6 +26,6 @@ public class ChildTicketInteraction : MonoBehaviour, IInteractable
         if (ticketManager.TicketsCollected < 10)
             return;
 
-        SceneManager.LoadScene("Ending");
+        sceneFader.FadeAndLoad("Ending", 1f);
     }
 }
