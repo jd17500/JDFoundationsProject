@@ -6,6 +6,8 @@ using System.Collections;
 public class SceneFader : MonoBehaviour
 {
     public Image image;
+    public AudioSource backgroundMusic;
+   
 
     private void Start()
     {
@@ -15,6 +17,13 @@ public class SceneFader : MonoBehaviour
     public void FadeAndLoad(string sceneName, float duration)
     {
         StartCoroutine(Fader(sceneName, duration));
+        StartCoroutine(FadeMusic(duration));
+    
+    }
+
+    public void LoadCutScene()
+    {
+        FadeAndLoad("CutScene", 1f);
     }
 
     IEnumerator Fader(string sceneName, float duration)
@@ -51,5 +60,23 @@ public class SceneFader : MonoBehaviour
 
         c.a = 0;
         image.color = c;
+    }
+
+    IEnumerator FadeMusic(float duration)
+    {
+        if (backgroundMusic == null)
+            yield break;
+
+        float startVolume = backgroundMusic.volume;
+        float t = 0;
+
+        while (t < duration)
+        {
+            t += Time.deltaTime;
+            backgroundMusic.volume = Mathf.Lerp(startVolume, 0f, Mathf.Clamp01(t / duration));
+            yield return null;
+        }
+
+        backgroundMusic.volume = 0f;
     }
 }
