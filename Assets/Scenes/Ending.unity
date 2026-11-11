@@ -714,7 +714,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: a855c56ec8d7dbc4a8d23273bb221fbe, type: 3}
+  m_Resource: {fileID: 8300000, guid: e92224fa18ee69e4c9423e0625f9d287, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2276,7 +2276,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2113180263
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2309,6 +2309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneFader
   image: {fileID: 2113180265}
+  backgroundMusic: {fileID: 0}
 --- !u!114 &2113180265
 MonoBehaviour:
   m_ObjectHideFlags: 0
